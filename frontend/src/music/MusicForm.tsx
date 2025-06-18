@@ -69,7 +69,11 @@ export const MusicForm = ({ onAdd }: Props) => {
         onChange={setGenre}
         error={errors.genre}
       />
-      <button className="submit-button" type="submit">
+      <button
+        className="submit-button"
+        disabled={!name || !artist || !genre}
+        type="submit"
+      >
         Add
       </button>
     </form>
