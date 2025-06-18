@@ -1,0 +1,21 @@
+.music-list {
+  list-style: none;
+  padding: 0;
+}
+
+.music-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid;
+  padding-bottom: 0.5rem;
+}
+
+.music-form {
+  max-width: 30rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.input-wrapper {
+  text-align: start;
+}
